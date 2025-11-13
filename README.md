@@ -36,3 +36,9 @@ Here’s how the recorder UI looks:
 dependencies:
   recorder:
     latest_version
+
+## 👨‍💻 Author
+**Hussain Shah**  
+Flutter Developer  
+[GitHub](https://github.com/shah000) 
+[Email](mailto:shahjihussain42@gmail.com)

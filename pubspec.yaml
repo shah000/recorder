@@ -1,12 +1,13 @@
 name: recorder
 description: A simple Flutter package for recording and playing audio.
-version: 1.0.1
+version: 1.0.2
+author: Hussain Shah <shahjihussain42@gmail.com>
 maintainers:
   - name: Hussain Shah
     email: shahjihussain42@gmail.com
-repository: https://github.com/hussainshah/recorder
-homepage: https://github.com/hussainshah/recorder
-issue_tracker: https://github.com/hussainshah/recorder/issues
+repository: https://github.com/shah000/recorder
+homepage: https://github.com/shah000/recorder
+issue_tracker: https://github.com/shah000/recorder/issues
 
 
 environment:
