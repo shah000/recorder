@@ -1,6 +1,6 @@
 name: recorder
 description: A simple Flutter package for recording and playing audio.
-version: 1.0.4
+version: 1.0.6
 maintainers:
   - name: Hussain Shah
     email: shahjihussain42@gmail.com

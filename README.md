@@ -24,6 +24,12 @@ Here’s how the recorder UI looks:
 ![Recorder Demo](example/screenshots/demo2.png)
 ![Recorder Demo](example/screenshots/demo3.png)
 
+## Developer
+
+Developed by:  
+
+- [Hussain Shah](https://www.linkedin.com/in/hussain-shah-shs/)  
+
 ## 🚀 Getting Started
 
 ### 1️⃣ Add dependency
