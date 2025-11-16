@@ -1,3 +1,8 @@
+// Copyright (c) 2025 Hussain Shah. All rights reserved.
+// Use of this source code is governed by a MIT license in the LICENSE file.
+// Recorder - A simple Flutter audio recording package.
+// Provides start, pause, resume, and stop recording features.
+
 import 'dart:async';
 import 'dart:math';
 

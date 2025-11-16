@@ -20,13 +20,9 @@ It provides a simple API to start, pause, resume, and stop audio recordings — 
 
 Here’s how the recorder UI looks:
 
-![Recorder Demo](screenshots/demo1.png)
-
-![Recorder Demo](screenshots/demo2.png)
-
-![Recorder Demo](screenshots/demo3.png)
-
-![Recorder Demo](screenshots/demo4.png)
+![Recorder Demo](example/screenshots/demo1.png)
+![Recorder Demo](example/screenshots/demo2.png)
+![Recorder Demo](example/screenshots/demo3.png)
 
 ## 🚀 Getting Started
 

@@ -1,4 +1,8 @@
 // ignore_for_file: unused_element, unused_local_variable, use_build_context_synchronously
+// Copyright (c) 2025 Hussain Shah. All rights reserved.
+// Use of this source code is governed by a MIT license in the LICENSE file.
+// Recorder - A simple Flutter audio recording package.
+// Provides start, pause, resume, and stop recording features.
 
 import 'dart:async';
 import 'dart:io';
@@ -51,8 +55,8 @@ class _RecorderState extends State<Recorder>
     _amplitudeSub = _audioRecorder
         .onAmplitudeChanged(const Duration(milliseconds: 300))
         .listen((amp) {
-          amplitudeNotifier.value = amp;
-        });
+      amplitudeNotifier.value = amp;
+    });
 
     // 👇 Auto start recording after init
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -129,8 +133,7 @@ class _RecorderState extends State<Recorder>
   Future<void> _send() async {
     _autoStopTimer?.cancel(); // 🔹 Cancel auto-stop timer
     // Capture final duration before any state changes triggered by stop()
-    final int capturedDuration =
-        _recordedDuration ??
+    final int capturedDuration = _recordedDuration ??
         (_recordState == RecordState.pause ? _pausedDuration : _recordDuration);
 
     // If already stopped, use audioPath, otherwise stop recording now
@@ -467,8 +470,7 @@ class _RecorderState extends State<Recorder>
                 // create soft wave motion with time-based phase shift
                 final t = DateTime.now().millisecondsSinceEpoch / 250.0;
                 final factor = (sin(i * 1.2 + t) * 0.5 + 3.9);
-                final barHeight =
-                    minBarHeight +
+                final barHeight = minBarHeight +
                     (maxBarHeight - minBarHeight) * factor * normalized;
 
                 return AnimatedContainer(
@@ -534,8 +536,8 @@ class _RecorderState extends State<Recorder>
             valueListenable: amplitudeNotifier,
             builder: (context, amp, _) {
               return
-              // const CustomWaves();
-              _buildLiveWave(amp);
+                  // const CustomWaves();
+                  _buildLiveWave(amp);
             },
           ),
 
