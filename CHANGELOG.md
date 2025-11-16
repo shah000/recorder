@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.6
+
+- Improved documentation.
+- Hot Fixes.
+
 ## 1.0.5
 
 - Improved documentation.
